@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+# Generated binary assets (regenerated in CI by scripts/make_icons.py)
+ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png
+ios/App/App/Assets.xcassets/Splash.imageset/*.png
