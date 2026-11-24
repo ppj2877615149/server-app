@@ -24,6 +24,9 @@ jobs:
       - name: Sync Capacitor iOS project
         run: npx cap sync ios
 
+      - name: Install Pillow
+        run: pip3 install pillow
+
       - name: Generate app icon and launch images
         run: python3 scripts/make_icons.py
 
